@@ -25,28 +25,85 @@ var varVar = "I'm the original way to declare a variable, avoid me if you can";
 const varConst = 'I can NOT be reassigned';
 let varLet = 'I can be reassigned';
 
+let number = 2;
+let string = 'hello';
+let boolean = true;
+
+/* Falsy values:
+False
+0
+"" (empty string)
+NaN (Not a Number)
+Null
+Undefined
+*/
+
 //===================== DOING MATH ============================
+let num = 42
+
+Number.isInteger(num) // true
+console.log();
 
 //===================== PLAYING WITH STRINGS (WORDS) ==========
+let str = 'Godzilla';
+
+str.length; // 8 (starts from 1, NOT 0)
+str.indexOf('zilla'); // 3
+str.slice(0, 3); // God
+str.toLowerCase(); // godzilla
+str.toUpperCase(); // GODZILLA
 
 //===================== EXPRESSIONS AND LOOPS =================
-
+// switch (typesOfFruit) {
+// 	case 'oranges':
+// 		console.log('You entered "oranges"!');
+// 		break;
+// 	case 'apples':
+// 		console.log('You entered "apples"!');
+// 		break;
+// 	case 'bananas':
+// 		console.log('You entered "bananas"!');
+// 		break;
+// 	default:
+// 		console.log(`Sorry, we don\'t have ${typesOfFruit}`);
+// }
 //===================== OBJECTS ===============================
 
 //===================== ARRAYS ================================
 
 //===================== FUNCTIONS =============================
-// first-class functions
+function funcDeclaration(param) {
+	return console.log(param);
+}
+
+const funcExpression = function (param) {
+	return console.log(param);
+};
+
+const arrowFunc = (param) => {
+	console.log(param);
+};
 
 //===================== OOP IN JS =============================
 
 //===================== DOM MANIPULATION ======================
+// const singleID = document.getElementById('ID');
 
 //===================== EVENT LISTENERS =======================
 
-//===================== IMPORTING JSON FILES ==================
+//===================== JSON ==================================
+/*
+JavaScript Object Notation 
+A language-independent data-representation text format helping us work with APIs. Objects containing methods for parsing and converting values.
+*/
+
+//===================== ERROR HANDLING ========================
+
+//===================== WORKING WITH APIs =====================
 
 //===================== ASYNC/AWAIT & PROMISES ================
+
+//===================== HASHMAP & HASHTABLE ================
 
 //===================== JS SOLUTIONS TO KNOW ==================
 // todo Palindrome
@@ -60,6 +117,11 @@ let varLet = 'I can be reassigned';
 
 //==== JS FRAMEWORKS & LIBRARIES TO KNOW (AT LEAST ABOUT) =====
 
+//===================== JQUERY ================================
+// https://github.com/bg-write/guide-to-jquery
+
+//==== WELL KNOWN JS FRAMEWORKS & LIBRARIES ===================
+
 //===================== Thank you for reading :) ==============
 /* 
 Helpful JS links:
@@ -67,3 +129,5 @@ JavaScript in 100 Seconds (Fireship) https://www.youtube.com/watch?v=DHjqpvDnNGE
 
 Thank you, General Assembly
 */
+
+// > node javascript.js
