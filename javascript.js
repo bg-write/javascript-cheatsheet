@@ -1,9 +1,5 @@
-/*
-JAVASCRIPT
-Created by Netscape in 1995 as an extension of HTML for Netscape Navigator 2.0 to manipulate HTML documents and form validation. Unlike C, C# and Java, JavaScript is an interpreted language ... it needs an "interpreter," like the browser.
-*/
+// THE VERY BASICS
 
-//===================== THE VERY BASICS =======================
 // This is a comment
 
 /* this is a comment,
@@ -11,7 +7,7 @@ with multiple lines */
 
 // to add JS to your HTML (see our "index.html" file)
 {
-	/* <script src="script.js"></script>; */
+    /* <script src="script.js"></script>; */
 }
 
 console.log('Hello, World');
@@ -20,7 +16,7 @@ console.log('Hello, World');
 // first, make sure you've installed Node.js
 // > node javascript.js
 
-//===================== VARIABLES, DATA AND VALUES ============
+// VARIABLES, DATA AND VALUES
 var varVar = "I'm the original way to declare a variable, avoid me if you can";
 const varConst = 'I can NOT be reassigned';
 let varLet = 'I can be reassigned';
@@ -84,15 +80,15 @@ console.log();
 
 //===================== FUNCTIONS =============================
 function funcDeclaration(param) {
-	return console.log(param);
+    return console.log(param);
 }
 
 const funcExpression = function (param) {
-	return console.log(param);
+    return console.log(param);
 };
 
 const arrowFunc = (param) => {
-	console.log(param);
+    console.log(param);
 };
 
 //===================== OOP IN JS =============================
@@ -118,10 +114,13 @@ A language-independent data-representation text format helping us work with APIs
 
 //===================== JS SOLUTIONS TO KNOW ==================
 // todo Palindrome
+// https://www.freecodecamp.org/news/two-ways-to-check-for-palindromes-in-javascript-64fea8191fd7/
 
 // todo FizzBuzz
+// https://codeburst.io/javascript-breaking-down-the-shortest-possible-fizzbuzz-answer-94a0ad9d128a
 
 // todo Fibonacci
+// https://medium.com/@justinhwu95/solving-the-fibonacci-sequence-in-javascript-c1ee37ef65d0
 
 //===================== NODE.JS ===============================
 // How we're able to build server-side apps with JS
@@ -132,13 +131,5 @@ A language-independent data-representation text format helping us work with APIs
 // https://github.com/bg-write/guide-to-jquery
 
 //==== WELL KNOWN JS FRAMEWORKS & LIBRARIES ===================
-
-//===================== Thank you for reading :) ==============
-/* 
-Helpful JS links:
-JavaScript in 100 Seconds (Fireship) https://www.youtube.com/watch?v=DHjqpvDnNGE
-
-Thank you, General Assembly
-*/
 
 // > node javascript.js

@@ -1,0 +1,28 @@
+{
+  "name": "js-cheatsheet",
+  "version": "1.0.0",
+  "description": "[![GitHub issues](https://img.shields.io/github/issues/bg-write/candyfloss-flask?style=flat-square)](https://github.com/bg-write/candyfloss-flask/issues)",
+  "main": "javascript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bg-write/javascript-cheatsheet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bg-write/javascript-cheatsheet/issues"
+  },
+  "homepage": "https://github.com/bg-write/javascript-cheatsheet#readme",
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-google": "^0.14.0",
+    "prettier": "2.8.1"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.5.0"
+  }
+}
