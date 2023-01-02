@@ -49,12 +49,10 @@ To add JS to an HTML file:
 
 -   Arrays
 -   Functions
+-   Objects & Object-Oriented Programming (OOP)
 
 ## JS Topics to Add
 
--   basic math
--   playing with strings
--   objects & object oriented programming (OOP)
 -   DOM manipulation
 -   event listeners
 -   JSON
