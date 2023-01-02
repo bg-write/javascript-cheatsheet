@@ -12,23 +12,6 @@ str.slice(0, 3); // God
 str.toLowerCase(); // godzilla
 str.toUpperCase(); // GODZILLA
 
-
-//===================== OBJECTS ===============================
-
-//===================== ARRAYS ================================
-let arr = [3, 4, 5, 6];
-
-arr.at(1); // 4
-arr.push(7); // [3, 4, 5, 6, 7]
-arr.pop(); // [3, 4, 5, 6]
-// arr.fill(1); // [1, 1, 1, 1]
-// arr.join(' ') // [3, 4, 5, 6] (now a string)
-// arr.reverse(); // [6, 5, 4, 3]
-arr.includes(5); // true
-arr.map((item) => 2 * item); // [6, 8, 10, 12]
-
-console.log();
-
 //===================== FUNCTIONS =============================
 function funcDeclaration(param) {
     return console.log(param);

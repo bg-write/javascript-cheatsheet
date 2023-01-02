@@ -47,12 +47,13 @@ To add JS to an HTML file:
   - do ... while
   - for
 
+- Arrays
+
+## JS Topics to Add
+  
 - basic math
 - playing with strings
-- expressions
-- loops
 - objects & object oriented programming (OOP)
-- arrays
 - functions
 - DOM manipulation
 - event listeners
