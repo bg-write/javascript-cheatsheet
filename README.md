@@ -1,18 +1,18 @@
-# JavaScript Cheatsheet: An Ever-Evolving Beginner's Guide to JavaScript by Brady Gerber
+# JavaScript Cheatsheet: An Ever-Evolving Beginner's Guide to JS by Brady Gerber
 
 [![GitHub issues](https://img.shields.io/github/issues/bg-write/javascript-cheatsheet?style=flat-square)](https://github.com/bg-write/javascript-cheatsheet/issues)
 
 ![JavaScript 101](https://doodleipsum.com/700?bg=D96363&i=2950d197771be2105d7d9a91975907bc)
 
-## JavaScript (JS) in Two Sentences
+## JavaScript (JS) in Three Sentences
 
-JS was created by Netscape in 1995 as an extension of HTML for Netscape Navigator 2.0 to manipulate HTML documents and form validation. It is an interpreted language; unlike C, C#, and Java, JS needs an "interpreter" aka a web browser.
+JavaScript was created by Netscape in 1995 as an extension of HTML for Netscape Navigator 2.0 to manipulate HTML documents and form validation. JS is an interpreted language; unlike C, C#, and Java, JS needs an "interpreter" aka a web browser. If HTML is the skeleton and CSS is our skin, JS is our brain telling us to "do" stuff.
 
 ---
 
 ## Getting Started
 
-In `javascript.js`, you'll find all the topics in one file and broken up into different sections. This guide is not meant to be deployed; all you need to do is pull it up as a reference.
+In the `js-guides` folder, you'll find topics divided into different files. I initially wrote this guide as one single .js file but found it easier to read and digest the material by breaking down sections into their own files. This guide is not meant to be deployed.
 
 To add JS to an HTML file:
 
@@ -33,17 +33,27 @@ To add JS to an HTML file:
 
 ## JS Topics Covered
 
-- writing comments
-- the console log
-- variables
-- doing basic math
+- Writing comments
+- Console log (writing and printing messages)
+- Data types
+- Control flow (operators & flow statements)
+  
+  - if
+  - if ... else
+  - if ... else ... if
+  - ternary
+  - switch
+  - while
+  - do ... while
+  - for
+
+- basic math
 - playing with strings
 - expressions
 - loops
-- objects
+- objects & object oriented programming (OOP)
 - arrays
 - functions
-- object oriented programming (OOP)
 - DOM manipulation
 - event listeners
 - JSON
@@ -55,7 +65,7 @@ To add JS to an HTML file:
 - node.js
 - jQuery
 
-This isn't everything to know about JS. It is, however, a great place to start.
+This guide doesn't include everything to know about JS. It is, however, a great place to start.
 
 ---
 
@@ -63,7 +73,7 @@ This isn't everything to know about JS. It is, however, a great place to start.
 
 ### CSS
 
-There are no CSS files added for the sake of simplicity. (A CSS beginner's guide is currently in the works.)
+There are no CSS files for the sake of simplicity. (A CSS beginner's guide is currently in the works.)
 
 ### The Code Itself
 

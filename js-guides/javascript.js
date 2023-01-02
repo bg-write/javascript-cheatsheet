@@ -1,39 +1,3 @@
-// THE VERY BASICS
-
-// This is a comment
-
-/* this is a comment,
-with multiple lines */
-
-// to add JS to your HTML (see our "index.html" file)
-{
-    /* <script src="script.js"></script>; */
-}
-
-console.log('Hello, World');
-
-// to call the script in the terminal
-// first, make sure you've installed Node.js
-// > node javascript.js
-
-// VARIABLES, DATA AND VALUES
-var varVar = "I'm the original way to declare a variable, avoid me if you can";
-const varConst = 'I can NOT be reassigned';
-let varLet = 'I can be reassigned';
-
-let number = 2;
-let string = 'hello';
-let boolean = true;
-
-/* Falsy values:
-False
-0
-"" (empty string)
-NaN (Not a Number)
-Null
-Undefined
-*/
-
 //===================== DOING MATH ============================
 let num = 42;
 
@@ -48,20 +12,7 @@ str.slice(0, 3); // God
 str.toLowerCase(); // godzilla
 str.toUpperCase(); // GODZILLA
 
-//===================== EXPRESSIONS AND LOOPS =================
-// switch (typesOfFruit) {
-// 	case 'oranges':
-// 		console.log('You entered "oranges"!');
-// 		break;
-// 	case 'apples':
-// 		console.log('You entered "apples"!');
-// 		break;
-// 	case 'bananas':
-// 		console.log('You entered "bananas"!');
-// 		break;
-// 	default:
-// 		console.log(`Sorry, we don\'t have ${typesOfFruit}`);
-// }
+
 //===================== OBJECTS ===============================
 
 //===================== ARRAYS ================================
