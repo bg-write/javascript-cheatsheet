@@ -33,38 +33,38 @@ To add JS to an HTML file:
 
 ## JS Topics Covered
 
-- Writing comments
-- Console log (writing and printing messages)
-- Data types
-- Control flow (operators & flow statements)
-  
-  - if
-  - if ... else
-  - if ... else ... if
-  - ternary
-  - switch
-  - while
-  - do ... while
-  - for
+-   Writing comments
+-   Console log (writing and printing messages)
+-   Data types
+-   Control flow (operators & flow statements)
 
-- Arrays
+    -   if
+    -   if ... else
+    -   if ... else ... if
+    -   ternary
+    -   switch
+    -   while
+    -   do ... while
+    -   for
+
+-   Arrays
+-   Functions
 
 ## JS Topics to Add
-  
-- basic math
-- playing with strings
-- objects & object oriented programming (OOP)
-- functions
-- DOM manipulation
-- event listeners
-- JSON
-- error handling
-- working with APIs
-- async/await & promises
-- hashmap & hashtable
-- simple JS solutions to a few popular technical challenges (palindrome, fizzbuzz, and fibonacci)
-- node.js
-- jQuery
+
+-   basic math
+-   playing with strings
+-   objects & object oriented programming (OOP)
+-   DOM manipulation
+-   event listeners
+-   JSON
+-   error handling
+-   working with APIs
+-   async/await & promises
+-   hashmap & hashtable
+-   simple JS solutions to a few popular technical challenges (palindrome, fizzbuzz, and fibonacci)
+-   node.js
+-   jQuery
 
 This guide doesn't include everything to know about JS. It is, however, a great place to start.
 
@@ -78,7 +78,7 @@ There are no CSS files for the sake of simplicity. (A CSS beginner's guide is cu
 
 ### The Code Itself
 
-This JS guide follows [Google's JS style guide](https://google.github.io/styleguide/jsguide.html) as closely as possible. This involves following [Nethmi Wijesinghe's excellent set-up guide](https://enlear.academy/how-to-set-up-airbnb-style-guide-82413ea6c5f2) for installing ESLint and Prettier in VS Code to match Google's guide in a new project. Nethmi's guide also works if you wish to use another popular style guide (i.e. Airbnb).
+This JS guide follows [Google's JS style guide](https://google.github.io/styleguide/jsguide.html) as closely as possible. This involves following [Nethmi Wijesinghe's excellent set-up guide](https://enlear.academy/how-to-set-up-airbnb-style-guide-82413ea6c5f2) for installing ESLint and Prettier in VS Code to match Google's guide in a new project. Nethmi's guide also works if you wish to use another popular style guide (i.e. Airbnb). I also refer to Google's [annotating JavaScript for the Closure Compiler](https://github.com/google/closure-compiler/wiki/Annotating-JavaScript-for-the-Closure-Compiler#return-type-description) repo.
 
 ### Accessibility
 

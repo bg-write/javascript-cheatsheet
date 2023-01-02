@@ -2,6 +2,11 @@
 // How we hold and reference data
 // for naming (identifying) variables, stickToCamelCase
 
+// SCOPE
+// Global: declared outside a function
+// Function/Local: new scope created for just a function
+// Block: new scope for just inside the curly braces of a statement
+
 var varVar = "I'm the original way to declare a variable. I have function/local scope. Avoid me if you can!";
 
 const varConst = "I'm newer and fancier, because I have block scope. I can NOT be reassigned.";
