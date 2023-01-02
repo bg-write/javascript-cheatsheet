@@ -4,14 +4,12 @@
 
 // XML HTTP REQUEST (old method)
 // NOTE: This only works in the browser (aka need to add this script into the HTML, can't work with Node) and is depreciated
-/*
 const request = new XMLHttpRequest();
 request.open('GET', 'https://swapi.dev/api/people/');
 request.send();
 request.onload = () => {
     console.log(JSON.parse(request.response));
 };
-*/
 
 // FETCH API
 // Uses Async and Promises to return an object with a single value - we either get a Response or Error
@@ -30,7 +28,7 @@ fetch('https://swapi.dev/api/people/')
 // requires adding the following script:
 // <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 // Also need to import it "import axios from 'axios" and do "> npm i axios"
-const axios = require('axios').default;
+import axios from 'axios';
 axios
     .get('https://swapi.dev/api/people/')
     .then((response) => {

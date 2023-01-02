@@ -37,7 +37,6 @@ To add JS to an HTML file:
 -   Console Log (Writing & Printing)
 -   Data Types
 -   Control Flow (Operators & Flow Statements)
-
     -   if
     -   if ... else
     -   if ... else ... if
@@ -46,13 +45,15 @@ To add JS to an HTML file:
     -   while
     -   do ... while
     -   for
-
 -   Arrays
 -   Functions
 -   Objects & Object-Oriented Programming (OOP)
 -   The Document Object Model (The DOM)
--   JSON
 -   APIs
+    -   XML HTTP REQUEST
+    -   Fetch
+    -   Axios
+-   JSON
 
 ## JS Topics to Add
 
@@ -81,7 +82,7 @@ There are no CSS files for the sake of simplicity. (A CSS beginner's guide is cu
 
 This JS guide follows [Google's JS style guide](https://google.github.io/styleguide/jsguide.html) as closely as possible. This involves following [Nethmi Wijesinghe's excellent set-up guide](https://enlear.academy/how-to-set-up-airbnb-style-guide-82413ea6c5f2) for installing ESLint and Prettier in VS Code to match Google's guide in a new project. Nethmi's guide also works if you wish to use another popular style guide (i.e. Airbnb). I also refer to Google's [annotating JavaScript for the Closure Compiler](https://github.com/google/closure-compiler/wiki/Annotating-JavaScript-for-the-Closure-Compiler#return-type-description) repo.
 
-`index.html` is used for just `the-doom.js` and `API.js`.
+`index.html` is used for `the-doom.js`, `API.js`, and `JSON.js`.
 
 ### Accessibility
 
