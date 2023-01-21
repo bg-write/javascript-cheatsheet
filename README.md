@@ -8,9 +8,9 @@
 
 JavaScript was created by Netscape in the early '90s as an extension of HTML for Netscape Navigator 2.0 to manipulate HTML documents and form validation. JS is a high-level interpreted language; unlike C or C#, JS needs an "interpreter" aka a web browser or a server like Node.
 
-If HTML is the skeleton and CSS is our skin, JS is our brain telling us to "do" stuff.
+If HTML is the skeleton that makes up the web and CSS is its skin and makeup, JS is our brain telling it to "do" stuff.
 
-The JS standard is called ECMAscript.
+The JS standard is called [ECMAscript](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/).
 
 ---
 
@@ -53,10 +53,7 @@ To add JS to an HTML file:
 -   Functions
 -   Objects & Object-Oriented Programming (OOP, "this")
 -   The Document Object Model (The DOM)
--   APIs
-    -   XML HTTP REQUEST
-    -   Fetch
-    -   Axios
+-   Making API calls (XML HTTP REQUEST, Fetch, Axios)
 -   JSON
 -   Async/Await & Promises
 
@@ -72,7 +69,7 @@ To add JS to an HTML file:
     -   Fibonacci
 -   Node.js
 
-This guide doesn't include everything to know about JS. It is, however, a great place to start.
+This guide doesn't include everything to know about JS. It is simply a place to start.
 
 ---
 
