@@ -1,3 +1,4 @@
+// Array: A dynamic collection of indexed items
 const colors = ['red', 'green', 'blue'];
 
 // ACCESSING ARRAY ELEMENTS
@@ -59,3 +60,8 @@ moreNumbers.indexOf(7); // 2
 moreNumbers.lastIndexOf(4); // 3
 moreNumbers.reverse(); // [ 3, 4, 7, 4, 1 ]
 moreNumbers.sort(); // [ 1, 3, 4, 4, 7 ]
+
+// Set
+// A collection of unique items
+const list = ['foo', 'bar', 'baz'];
+const uniq = new Set(list); // Set(3) { 'foo', 'bar', 'baz' }

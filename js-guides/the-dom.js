@@ -1,6 +1,6 @@
 // ** THIS GUIDE USES INDEX.HTML TO PRACTICE DOM MANIPULATION
 // To see this work in real-time, right-click on "index.html" and click on "Open with Live Server"
-// DevTools is your friend here! To see console log outputs, instead of calling node in the terminal, open the console on the web browser running on your live server
+// Here, DevTools is your friend! To see console log outputs, instead of calling node in the terminal, open the console on the web browser running on your live server
 
 // THE DOCUMENT OBJECT MODEL (The DOM)
 // The in-memory representation of a browser's web document
@@ -19,3 +19,5 @@ cool.innerHTML = 'Comments for <strong>Today</strong>';
 title.getAttribute('class'); // main-title
 title.setAttribute('name', 'title'); // <h1 id="title" class="main-title" name="title" style="text-align: center;">DOM Practice</h1>
 title.hasAttribute('name'); // true
+
+// EVENT LISTENERS

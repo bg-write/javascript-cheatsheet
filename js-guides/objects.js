@@ -38,7 +38,7 @@ RPG
 */
 
 // CLASSES
-// Another way to make objects)
+// Another way to make objects via OOP
 // It's like building a car that we can then reuse
 
 // CREATING THE CLASS (AND A NEW OBJECT)
@@ -71,3 +71,38 @@ const plane = new Vehicle('X123Y', 'Boeing', 'New Model');
 }
 */
 plane.start(); // running ...
+
+// "this"
+// A JS keyword that refers to an object, yet determined by how a function is called. "this" can be:
+
+// the object (in an object method)
+const person = {
+    firstName: 'John',
+    lastName: 'Doe',
+    id: 5566,
+    fullName: function () {
+        return this.firstName + ' ' + this.lastName;
+        // "this" refers to "person"
+    },
+};
+
+// the global object (alone or in a function)
+let x = this; // [global window]
+
+function myFunction() {
+    return this; // [global window]
+}
+
+// undefined (in a function in strict mode)
+('use strict');
+function myFunction() {
+    return this; // undefined
+}
+
+// the element receiving the event (in an event handler)
+<button onclick="this.style.display='none'">Click to Remove Me!</button>;
+// "this" is <button/>
+
+// The "bind()" method can set a function's "this" regardless of how it's called, but be careful.
+
+// Arrow functions do NOT provide their own "this" binding
