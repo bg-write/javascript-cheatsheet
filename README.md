@@ -56,6 +56,7 @@ To add JS to an HTML file:
 -   Making API calls (XML HTTP REQUEST, Fetch, Axios)
 -   JSON
 -   Async/Await & Promises
+-   Simple JS solutions to Popular Technical Challenges (Palindrome, Fizzbuzz, Fibonacci)
 
 ## JS Topics to Add
 
@@ -63,11 +64,8 @@ To add JS to an HTML file:
 -   Modules
 -   Error Handling
 -   Hashmap & Hashtable
--   Simple JS solutions to Popular Technical Challenges
-    -   Palindrome
-    -   Fizzbuzz
-    -   Fibonacci
 -   Node.js
+-   React.js
 
 This guide doesn't include everything to know about JS. It is simply a place to start.
 
