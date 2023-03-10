@@ -6,9 +6,9 @@
 
 ## JavaScript (JS) in One Minute
 
-JavaScript was created by Netscape in the early '90s as an extension of HTML for Netscape Navigator 2.0 to manipulate HTML documents and form validation. JS is a high-level interpreted language; unlike C or C#, JS needs an "interpreter" aka a web browser or a server like Node.
+JavaScript was created by Netscape in the early '90s as an extension of HTML for Netscape Navigator 2.0 in order to manipulate HTML documents and form validation. JS is a high-level interpreted language; unlike C or C#, JS needs an "interpreter" aka a web browser (Google Chrome) or server (Node).
 
-If HTML is the skeleton that makes up the web and CSS is its skin and makeup, JS is our brain telling it to "do" stuff.
+If HTML is the skeleton that makes up the web, and CSS is the skin and makeup, JS is the brain telling our skeleton to "do" stuff.
 
 The JS standard is called [ECMAscript](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/).
 
@@ -56,9 +56,9 @@ To add JS to an HTML file:
 -   Making API calls (XML HTTP REQUEST, Fetch, Axios)
 -   JSON
 -   Async/Await & Promises
--   Simple JS solutions to Popular Technical Challenges (Palindrome, Fizzbuzz, Fibonacci)
+-   Simple JS solutions to Popular Technical Challenges (i.e. Palindrome, Fizzbuzz, Fibonacci)
 
-## JS Topics to Add
+## JS Topics to Add and Flesh Out
 
 -   Event Listeners (to add to the DOM file)
 -   Modules
@@ -97,6 +97,6 @@ Many people enjoy LeetCode, but I think [NeetCode](https://neetcode.io/) and [Co
 
 ## Closing Credits
 
-Thank you to my instructors at General Assembly for my first steps into JS. Also shout-out to the many helpful YouTube channels I still refer to: [Traversy Media](https://www.youtube.com/c/TraversyMedia), [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified), [The Net Ninja](https://www.youtube.com/c/TheNetNinja), [Programming with Mosh](https://www.youtube.com/c/programmingwithmosh), and [Fireship](https://www.youtube.com/watch?v=lkIFF4maKMU).
+Thank you to my instructors at General Assembly for my first steps into JS. Also shout-out to the many helpful YouTube channels I still refer to: [Traversy Media](https://www.youtube.com/c/TraversyMedia), [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified), [The Net Ninja](https://www.youtube.com/c/TheNetNinja), [Programming with Mosh](https://www.youtube.com/c/programmingwithmosh), and [Fireship](https://www.youtube.com/watch?v=lkIFF4maKMU). Also thank you to Asabeneh's [30 Days of JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/readMe.md) repo.
 
 © 2023 Brady Gerber. All Rights Reserved.

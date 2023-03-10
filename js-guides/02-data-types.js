@@ -1,5 +1,5 @@
 // VARIABLES
-// How we hold and reference data
+// How we hold, contain, and reference data
 // for naming (identifying) variables, stickToCamelCase
 
 // SCOPE
@@ -11,9 +11,9 @@ var varVar =
     "I'm the original way to declare a variable. I have function/local scope. Avoid me if you can!";
 
 const varConst =
-    "I'm newer and fancier, because I have block scope. I can NOT be reassigned.";
+    "I'm newer and fancier, because I have block scope. I can NOT be reassigned and my data won't change.";
 
-let varLet = "I'm like const, except I CAN be reassigned.";
+let varLet = "I'm like const, except I CAN be reassigned and change at a different time.";
 
 // DATA TYPES
 // Primitive (a single value)
@@ -24,14 +24,18 @@ const boolean = true;
 
 // MORE ON STRINGS
 // Line breaks
-twoLines = 'Line one.\nLine two.';
+const twoLines = 'Line one.\nLine two.';
 /*
 Line one.
 Line two.
 */
 
+// MORE ON NUMBERS
+const integer = 42
+const float = 4.2
+
 // Template literals
-templateLiteral = `${string}, ${number}, and ${boolean} are all different data types!`; // Hi., 42, and true are all different data types!
+const templateLiteral = `${string}, ${number}, and ${boolean} are all different data types!`; // Hi., 42, and true are all different data types!
 
 // Object (multiple values)
 /*
@@ -41,3 +45,6 @@ Function
 RegEx
 Date
 */
+
+// When in doubt trying to check data types
+typeof 'This is a string' // string
