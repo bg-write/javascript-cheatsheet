@@ -16,11 +16,13 @@ const varConst =
 let varLet = "I'm like const, except I CAN be reassigned and change at a different time.";
 
 // DATA TYPES
-// Primitive (a single value)
+// Primitive (data types with a single value)
 const string = 'Hi.';
 const number = 42;
 const boolean = true;
-// There's also null (no value, or empty), undefined (value not assigned), and symbol (somewhat rare)
+// null = no value, or empty
+// undefined = value not assigned
+// symbol = somewhat rare
 
 // MORE ON STRINGS
 // Line breaks
@@ -30,6 +32,9 @@ Line one.
 Line two.
 */
 
+let strConcat = 'Brady ' + 'Gerber' // Brady Gerber
+console.log(strConcat)
+
 // MORE ON NUMBERS
 const integer = 42
 const float = 4.2
@@ -37,7 +42,7 @@ const float = 4.2
 // Template literals
 const templateLiteral = `${string}, ${number}, and ${boolean} are all different data types!`; // Hi., 42, and true are all different data types!
 
-// Object (multiple values)
+// Object (non-primitive data types with multiple values and are mutable)
 /*
 Array
 Object

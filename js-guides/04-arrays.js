@@ -1,4 +1,4 @@
-// Array: A dynamic collection of indexed items
+// Array: A list of data values; a dynamic collection of indexed items
 const colors = ['red', 'green', 'blue'];
 
 // ACCESSING ARRAY ELEMENTS
