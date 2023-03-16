@@ -6,11 +6,7 @@
 
 ## JavaScript (JS) in One Minute
 
-JavaScript was created by Netscape in the early '90s as an extension of HTML for Netscape Navigator 2.0 in order to manipulate HTML documents and form validation. JS is a high-level interpreted language; unlike C or C#, JS needs an "interpreter" aka a web browser (Google Chrome) or server (Node).
-
-If HTML is the skeleton that makes up the web, and CSS is the skin and makeup, JS is the brain telling our skeleton to "do" stuff.
-
-The JS standard is called [ECMAscript](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/).
+JavaScript was created by Netscape in the early '90s as an extension of HTML for Netscape Navigator 2.0 in order to manipulate HTML documents and form validation. JS is a high-level interpreted language; unlike C or C#, JS needs an "interpreter" aka a web browser (Google Chrome) or server (Node). If HTML is the skeleton that makes up the web, and CSS is the skin and makeup, JS is the brain telling our skeleton to "do" stuff. The JS standard is called [ECMAscript](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/).
 
 ---
 
